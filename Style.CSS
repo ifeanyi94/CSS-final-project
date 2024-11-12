@@ -1,0 +1,124 @@
+nav {
+    background-color: rgb(255, 255, 255);
+    display: block;
+    width: 100%;
+}
+
+.hidden > a {
+    display:inline;
+    opacity: 0%;
+    ;
+}
+
+.hidden > a:focus {
+display: inline;
+opacity: 100%;
+}
+
+
+.button-link li{
+    position: relative;
+    left: -100px;
+    display: inline;
+    width: fit-content;
+    padding: 10px 20px;
+    margin: 120px;
+    background-color:  skyblue;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    border-radius: 5px;
+    box-shadow: 5cm;
+    transition: all 0.5s ease
+
+}
+
+.button-link li:hover{
+    font-size: large;
+}
+.button-link li:active {
+
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: skyblue;
+
+}
+
+
+div {
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+.Lav {
+    background-color: beige;
+    width: 100%;
+}
+
+.Lav img {
+    width: 100%;
+    height: 300px;
+}
+
+.Nice img {
+    display: inline-flex;
+   flex-wrap: nowrap;
+    width: 190px;
+    margin: 3px;
+    border: 5px solid black;
+    padding: 2px;
+    opacity: 50%;
+    transition: all 1.5s  ease;
+}
+
+.Nice img:nth-child(3n+3) {
+    display: inline-flex;
+   flex-wrap: nowrap;
+    width: 190px;
+    margin: 3px;
+    border: 5px solid rgb(172, 22, 22);
+    padding: 2px;
+    opacity: 50%;
+    transition: all 1.5s  ease;
+}
+
+
+.Nice img:hover {
+    width: 250px;
+    border: 10px solid black;
+    border-radius: 50px;
+    opacity: 100%;   
+    
+}
+
+.Nice img:nth-child(3n+3):hover {
+
+    width: 250px;
+    border: 10px solid red;
+    border-radius: 50px;
+    opacity: 100%; 
+}
+
+
+main {
+    background-color: skyblue;
+}
+
+main div {
+    background-color: skyblue;
+}
+
+
+
+
+.grid-list {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 20px;
+    margin: 10px;
+    background-color: skyblue;
+}
+
+.test {
+    background-color:skyblue;
+    height: 500px;
+}
